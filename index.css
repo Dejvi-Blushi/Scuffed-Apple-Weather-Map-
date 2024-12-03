@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(0, 0%, 5%);
+    font-family: arial;
+    min-height: 45rem;
+}
+
+#weather-app {
+    margin: auto;
+    max-width: 30rem;
+    min-width: 19rem;
+    background-color: hsl(229, 13%, 17%);
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    position: relative;
+    transform: translateY(40%);
+}
+
+#search {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#search-input {
+    height: 3rem;
+    width: 85%;
+    max-width: 90%;
+    min-width: 10rem;
+    background-color: #1c1c20;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+#search-submit {
+    height: 3rem;
+    min-width: 7rem;
+    margin-left: 0.25rem;
+    background-color: hsl(221, 85%, 42%);
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#search-submit:hover {
+    background-color: hsl(221, 85%, 32%);
+}
+
+#main-display {
+    text-align: center;
+    color: white;
+}
+
+#city-display {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+#temp-display {
+    font-size: 6rem;
+    margin: 0px;
+}
+
+#status-display {
+    font-size: 2rem;
+    margin: 0px;
+    color: rgb(189, 189, 189);
+}
+
+#highest-temp-display,
+#lowest-temp-display {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+#t24-hour-display,
+#s7-day-display {
+    background-color: #1c1c20;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+#t24-hour-display hr,
+#s7-day-display hr {
+    border: 1px solid rgb(189, 189, 189);
+}
+
+#t24-hour-container {
+    display: flex;
+    overflow: auto;
+    gap: 25px;
+}
+
+.time-container {
+    text-align: center;
+}
+
+.t24-hour-temp {
+    margin-bottom: 0.5rem;
+}
+
+.day-container {
+    display: grid;
+    grid-template-columns: 90px 25px 25px 25px;
+    justify-content: space-between;
+}

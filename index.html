@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="Black.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="weather-app">
+        <div id="search">
+            <input id="search-input" type="search" placeholder="Search for a city">
+            <button id="search-submit">Search</button>
+        </div>
+        <div id="main-display">
+            <p id="city-display"></p>
+            <p id="temp-display"></p>
+            <p id="status-display"></p>
+            <span id="highest-temp-display"></span>
+            <span id="lowest-temp-display"></span>
+        </div>
+        <div id="t24-hour-display">
+            <span>3-Hour Span Forecast</span>
+            <hr>
+            <div id="t24-hour-container">
+                <div id="12am-container" class="time-container">
+                    <div id="t0-time"></div>
+                    <div id="t0-icon"></div>
+                    <div id="t0-temp" class="t24-hour-temp"></div>
+                </div>
+                <div id="3am-container" class="time-container">
+                    <div id="t1-time"></div>
+                    <div id="t1-icon"></div>
+                    <div id="t1-temp" class="t24-hour-temp"></div>
+                </div>
+                <div id="6am-container" class="time-container">
+                    <div id="t2-time"></div>
+                    <div id="t2-icon"></div>
+                    <div id="t2-temp" class="t24-hour-temp"></div>
+                </div>
+                <div id="9am-container" class="time-container">
+                    <div id="t3-time"></div>
+                    <div id="t3-icon"></div>
+                    <div id="t3-temp" class="t24-hour-temp"></div>
+                </div>
+                <div id="12pm-container" class="time-container">
+                    <div id="t4-time"></div>
+                    <div id="t4-icon"></div>
+                    <div id="t4-temp" class="t24-hour-temp"></div>
+                </div>
+                <div id="3pm-container" class="time-container">
+                    <div id="t5-time"></div>
+                    <div id="t5-icon"></div>
+                    <div id="t5-temp" class="t24-hour-temp"></div>
+                </div>
+                <div id="6pm-container" class="time-container">
+                    <div id="t6-time"></div>
+                    <div id="t6-icon"></div>
+                    <div id="t6-temp" class="t24-hour-temp"></div>
+                </div>
+                <div id="9pm-container" class="time-container">
+                    <div id="t7-time"></div>
+                    <div id="t7-icon"></div>
+                    <div id="t7-temp" class="t24-hour-temp"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
